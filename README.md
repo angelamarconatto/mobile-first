@@ -1,2 +1,2 @@
 # mobile-first
-aqui o noço atendimento e unico e epecial tratamos nossos clientes muito bem e temos os melhores produtos para sua beleza
+Nossa loja de cursos oferece uma variedade de programas de aprendizado online, projetados para desenvolver suas habilidades e avançar na sua carreira
