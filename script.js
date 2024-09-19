@@ -1,5 +1,1 @@
-
-document.getElementById('burger-menu').addEventListener('click', function() {
-    var navLinks = document.getElementById('nav-links');
-    navLinks.classList.toggle('show');
-});
+// adicione funcionalidade de carrossel, se necesário, ou outras interaçoes

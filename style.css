@@ -1,0 +1,148 @@
+/* Reset básico */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+/* Corpo */
+body {
+    background-color: #e0f7fa;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+/* Cabeçalho e navegação */
+header {
+    width: 100%;
+    background-color: white;
+    padding: 10px 20px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.menu-icon {
+    display: flex;
+    flex-direction: column;
+    cursor: pointer;
+}
+
+.menu-icon .bar {
+    width: 25px;
+    height: 3px;
+    background-color: #000;
+    margin: 3px 0;
+}
+
+.icons {
+    display: flex;
+    gap: 20px;
+}
+
+.icons .icon {
+    font-size: 24px;
+    cursor: pointer;
+}
+
+/* Banner */
+.banner {
+    text-align: center;
+    background-color: #0077c2;
+    color: white;
+    padding: 30px;
+    border-radius: 10px;
+    margin-top: 20px;
+    width: 100%;
+    max-width: 600px;
+}
+
+.banner h1 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.banner p {
+    font-size: 16px;
+    margin-bottom: 20px;
+}
+
+/* Caixa de pesquisa */
+.search-box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    padding: 10px;
+    border-radius: 50px;
+    width: 300px;
+    margin: 0 auto;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.search-box input {
+    border: none;
+    outline: none;
+    padding: 10px;
+    flex: 1;
+    border-radius: 50px;
+    font-size: 16px;
+}
+
+.search-box button {
+    background-color: transparent;
+    border: none;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+/* Carrossel */
+.carousel {
+    margin-top: 40px;
+    text-align: center;
+}
+
+.carousel h2 {
+    font-size: 20px;
+    color: #ffb300;
+    margin-bottom: 20px;
+}
+
+.carousel-container {
+    display: flex;
+    overflow: hidden;
+    width: 100%;
+}
+
+.carousel-item {
+    flex: 0 0 auto;
+    width: 100%;
+}
+
+.carousel-item img {
+    width: 100%;
+    height: auto;
+}
+
+.carousel-item p {
+    font-size: 14px;
+    margin-top: 10px;
+    color: #333;
+}
+
+/* Responsividade */
+@media (max-width: 768px) {
+    .banner, .carousel {
+        width: 100%;
+    }
+    .search-box {
+        width: 100%;
+    }
+}
